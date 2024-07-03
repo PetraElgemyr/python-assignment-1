@@ -1,6 +1,6 @@
 # Recieve the price of a product exclusive the taxes from the user
 priceExclusive = input("Skriv in priset exklusive moms: ")
-# Change the int type of the input to a float number and multiply it with 1.25 to get the price inclusive taxes
+# Change the string type of the input to a float number and multiply it with 1.25 to get the price inclusive taxes
 priceInclusive = float(priceExclusive) * 1.25
 # Print the price inclusive taxes to the user
 print("Priset inklusive moms är: ", priceInclusive)
