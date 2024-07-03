@@ -4,7 +4,6 @@ priceExclusive = input("Skriv in priset exklusive moms: ")
 priceInclusive = float(priceExclusive) * 1.25
 # Print the price inclusive taxes to the user
 print("Priset inklusive moms är: ", priceInclusive)
-print("Hello \bWorld")
 
 """
 If the user inputs 100 as the price exclusive taxes the output will be 125.0 (not 125 since the calculation is done with floats).
